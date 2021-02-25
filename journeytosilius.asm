@@ -131,7 +131,6 @@ c0dd:
 
 
 
- .org $c6d7
  
 mmc1setup: ;c6d7
     lda #$1e ;two 4kb chr banks, fixed upper 16k bank, vertical mirroring
